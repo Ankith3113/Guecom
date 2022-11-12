@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+ {% load static %}
+ {% block title %}
+ Bangalore Product Line
+{% endblock %}
+
+ {% block content %}
+
+<div class ="text-center">
+<br>
+<br>
+<h1 class="text-center product_title">
+ Thanks for placing your order
+</h1>
+<br>
+<br>
+<p>Your order number is: <b>{{ customer_order.id }}</b></p><br>
+<p>We have received your order and will dispatch soon. An email confirmation will be sent to you as soon as the product order is processed.</b></p>
+</div>
+
+{% endblock %}
