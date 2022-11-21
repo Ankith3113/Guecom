@@ -1,0 +1,1 @@
+web: gunicorn GUECOM.wsgi --log-file -
